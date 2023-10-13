@@ -5,39 +5,26 @@ body{
     padding: 0;
     text-align: center;
 }
+img {
+   max-width: 100%;
+   height: auto;
+   margin: 10px;
+}
 
-.header{
-    background: #00D1AE;
-    height: 30px;
-    margin-bottom: 10px;
-    min-width: 725px;
-    padding-top: 10px;
-    width: 100%;
-}
-.general-container{
-    margin: 0 auto;
-    width: 725px;
-}
-.left-bar{
-    background: #00D1AE;
+.left-header-image{
     float: left;
-    height: 590px;
     padding-top: 10px;
-    width: 20%;
+    max-width: 10%;
+    margin-left: 100px;
 }
-.main-content{
-    background: #00D1AE;
-    float: left;
-    height: 590px;
+.right-logo{
+    float: right;
     padding-top: 10px;
-    margin: 0 1%;
-    width: 48%;
+    max-width: 10%;
+    margin-right: 100px;
 }
-.right-bar{
-    background: #00D1AE;
-    float: left;
-    height: 590px;
-    padding-top: 10px;
-    width: 20%;
-    margin-left: 20p;
+.header-content{
+    font-family: Arial;
+    padding: 30px;
+    text-align: center;
 }
